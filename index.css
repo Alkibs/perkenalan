@@ -1,0 +1,85 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+ background-color: bisque;
+}
+@media only screen and (max-width: 480px) {
+    .container_image {
+        width: 100%;
+        margin: auto;
+        text-align: center;
+    }
+    .container_image img {
+        width: 100%;
+    }
+    .nama {
+        margin-top: 175px;
+        margin-bottom: 175px;
+    }
+    .dumai {
+        margin-top: 110px;
+
+    }
+    .fib {
+        margin-top: 175px;
+        margin-bottom: 250px;
+    }
+    .fotokopi {
+        margin:175px 0px;
+    }
+    .unpad {
+        margin:175px 0px;
+    }
+    .hobi {
+        margin: 175px 0px;
+    }
+    .carousel_container {
+        width: 100%;
+        margin: auto;
+        position: relative;
+        overflow: hidden;
+        margin-top: 185px;
+        margin-bottom: 175px;
+    }
+    .carousel_slider {
+        width: 100%;
+        display: flex;
+    }
+    .carousel_container i {
+        position: absolute;
+        z-index: 1;
+        font-size: 20px;
+        color:white;
+        cursor: pointer;
+        padding: 1%;
+        border-radius: 50%;
+        background-color: grey;
+        box-sizing: border-box;
+    }
+    #nextBtn {
+        top: 50%;
+        right: 3%;
+    }
+    #prevBtn {
+        top: 50%;
+        left: 3%;
+    }
+    .carousel_container .carousel_slider .img {
+    min-width: 100%;
+    background-color: gainsboro;
+    position: relative;
+}
+    .carousel_container .carousel_slider .img img {
+        height: 45vh;
+        width: 100%;
+    }
+    .carousel_container .carousel_slider h2 {
+        font-size: 15px;
+    }
+    .terimakasih {
+        margin: 175px 0px;
+    }
+}
